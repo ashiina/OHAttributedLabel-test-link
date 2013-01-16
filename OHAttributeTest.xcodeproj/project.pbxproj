@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E3F8BD316A6548400E9653C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3F8BD216A6548400E9653C /* UIKit.framework */; };
+		3E3F8BD516A6548400E9653C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3F8BD416A6548400E9653C /* Foundation.framework */; };
+		3E3F8BD716A6548400E9653C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3F8BD616A6548400E9653C /* CoreGraphics.framework */; };
+		3E3F8BDD16A6548400E9653C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E3F8BDB16A6548400E9653C /* InfoPlist.strings */; };
+		3E3F8BDF16A6548400E9653C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F8BDE16A6548400E9653C /* main.m */; };
+		3E3F8BE316A6548400E9653C /* OHATestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F8BE216A6548400E9653C /* OHATestAppDelegate.m */; };
+		3E3F8BE516A6548500E9653C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3F8BE416A6548500E9653C /* Default.png */; };
+		3E3F8BE716A6548500E9653C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3F8BE616A6548500E9653C /* Default@2x.png */; };
+		3E3F8BE916A6548500E9653C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3F8BE816A6548500E9653C /* Default-568h@2x.png */; };
+		3E3F8BEC16A6548500E9653C /* OHATestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F8BEB16A6548500E9653C /* OHATestViewController.m */; };
+		3E3F8BEF16A6548500E9653C /* OHATestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3F8BED16A6548500E9653C /* OHATestViewController.xib */; };
+		3E3F8BFF16A6555800E9653C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3F8BFE16A6555800E9653C /* CoreText.framework */; };
+		3E3F8C0016A6555F00E9653C /* libOHAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3F8BFD16A654B200E9653C /* libOHAttributedLabel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E3F8BFC16A654B200E9653C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3F8BF516A654B200E9653C /* OHAttributedLabel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09E159E8160F573A003025B4;
+			remoteInfo = OHAttributedLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E3F8BCE16A6548400E9653C /* OHAttributeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OHAttributeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3F8BD216A6548400E9653C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E3F8BD416A6548400E9653C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E3F8BD616A6548400E9653C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E3F8BDA16A6548400E9653C /* OHAttributeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OHAttributeTest-Info.plist"; sourceTree = "<group>"; };
+		3E3F8BDC16A6548400E9653C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E3F8BDE16A6548400E9653C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E3F8BE016A6548400E9653C /* OHAttributeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OHAttributeTest-Prefix.pch"; sourceTree = "<group>"; };
+		3E3F8BE116A6548400E9653C /* OHATestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OHATestAppDelegate.h; sourceTree = "<group>"; };
+		3E3F8BE216A6548400E9653C /* OHATestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHATestAppDelegate.m; sourceTree = "<group>"; };
+		3E3F8BE416A6548500E9653C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3E3F8BE616A6548500E9653C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3E3F8BE816A6548500E9653C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3E3F8BEA16A6548500E9653C /* OHATestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OHATestViewController.h; sourceTree = "<group>"; };
+		3E3F8BEB16A6548500E9653C /* OHATestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHATestViewController.m; sourceTree = "<group>"; };
+		3E3F8BEE16A6548500E9653C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OHATestViewController.xib; sourceTree = "<group>"; };
+		3E3F8BF516A654B200E9653C /* OHAttributedLabel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OHAttributedLabel.xcodeproj; path = "../../../Downloads/OHAttributedLabel-master/OHAttributedLabel/OHAttributedLabel.xcodeproj"; sourceTree = "<group>"; };
+		3E3F8BFE16A6555800E9653C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3F8BCB16A6548400E9653C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3F8C0016A6555F00E9653C /* libOHAttributedLabel.a in Frameworks */,
+				3E3F8BFF16A6555800E9653C /* CoreText.framework in Frameworks */,
+				3E3F8BD316A6548400E9653C /* UIKit.framework in Frameworks */,
+				3E3F8BD516A6548400E9653C /* Foundation.framework in Frameworks */,
+				3E3F8BD716A6548400E9653C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3F8BC316A6548400E9653C = {
+			isa = PBXGroup;
+			children = (
+				3E3F8BFE16A6555800E9653C /* CoreText.framework */,
+				3E3F8BD816A6548400E9653C /* OHAttributeTest */,
+				3E3F8BD116A6548400E9653C /* Frameworks */,
+				3E3F8BCF16A6548400E9653C /* Products */,
+				3E3F8BF516A654B200E9653C /* OHAttributedLabel.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3F8BCF16A6548400E9653C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F8BCE16A6548400E9653C /* OHAttributeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E3F8BD116A6548400E9653C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F8BD216A6548400E9653C /* UIKit.framework */,
+				3E3F8BD416A6548400E9653C /* Foundation.framework */,
+				3E3F8BD616A6548400E9653C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E3F8BD816A6548400E9653C /* OHAttributeTest */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F8BE116A6548400E9653C /* OHATestAppDelegate.h */,
+				3E3F8BE216A6548400E9653C /* OHATestAppDelegate.m */,
+				3E3F8BEA16A6548500E9653C /* OHATestViewController.h */,
+				3E3F8BEB16A6548500E9653C /* OHATestViewController.m */,
+				3E3F8BED16A6548500E9653C /* OHATestViewController.xib */,
+				3E3F8BD916A6548400E9653C /* Supporting Files */,
+			);
+			path = OHAttributeTest;
+			sourceTree = "<group>";
+		};
+		3E3F8BD916A6548400E9653C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F8BDA16A6548400E9653C /* OHAttributeTest-Info.plist */,
+				3E3F8BDB16A6548400E9653C /* InfoPlist.strings */,
+				3E3F8BDE16A6548400E9653C /* main.m */,
+				3E3F8BE016A6548400E9653C /* OHAttributeTest-Prefix.pch */,
+				3E3F8BE416A6548500E9653C /* Default.png */,
+				3E3F8BE616A6548500E9653C /* Default@2x.png */,
+				3E3F8BE816A6548500E9653C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E3F8BF616A654B200E9653C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F8BFD16A654B200E9653C /* libOHAttributedLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E3F8BCD16A6548400E9653C /* OHAttributeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3F8BF216A6548500E9653C /* Build configuration list for PBXNativeTarget "OHAttributeTest" */;
+			buildPhases = (
+				3E3F8BCA16A6548400E9653C /* Sources */,
+				3E3F8BCB16A6548400E9653C /* Frameworks */,
+				3E3F8BCC16A6548400E9653C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHAttributeTest;
+			productName = OHAttributeTest;
+			productReference = 3E3F8BCE16A6548400E9653C /* OHAttributeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E3F8BC516A6548400E9653C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OHATest;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shiina Ahmad";
+			};
+			buildConfigurationList = 3E3F8BC816A6548400E9653C /* Build configuration list for PBXProject "OHAttributeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E3F8BC316A6548400E9653C;
+			productRefGroup = 3E3F8BCF16A6548400E9653C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3E3F8BF616A654B200E9653C /* Products */;
+					ProjectRef = 3E3F8BF516A654B200E9653C /* OHAttributedLabel.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3E3F8BCD16A6548400E9653C /* OHAttributeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3E3F8BFD16A654B200E9653C /* libOHAttributedLabel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOHAttributedLabel.a;
+			remoteRef = 3E3F8BFC16A654B200E9653C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E3F8BCC16A6548400E9653C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3F8BDD16A6548400E9653C /* InfoPlist.strings in Resources */,
+				3E3F8BE516A6548500E9653C /* Default.png in Resources */,
+				3E3F8BE716A6548500E9653C /* Default@2x.png in Resources */,
+				3E3F8BE916A6548500E9653C /* Default-568h@2x.png in Resources */,
+				3E3F8BEF16A6548500E9653C /* OHATestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3F8BCA16A6548400E9653C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3F8BDF16A6548400E9653C /* main.m in Sources */,
+				3E3F8BE316A6548400E9653C /* OHATestAppDelegate.m in Sources */,
+				3E3F8BEC16A6548500E9653C /* OHATestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E3F8BDB16A6548400E9653C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3F8BDC16A6548400E9653C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E3F8BED16A6548500E9653C /* OHATestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3F8BEE16A6548500E9653C /* en */,
+			);
+			name = OHATestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E3F8BF016A6548500E9653C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E3F8BF116A6548500E9653C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E3F8BF316A6548500E9653C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OHAttributeTest/OHAttributeTest-Prefix.pch";
+				INFOPLIST_FILE = "OHAttributeTest/OHAttributeTest-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/shiinaahmad/Downloads/OHAttributedLabel-master/OHAttributedLabel/Source";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E3F8BF416A6548500E9653C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OHAttributeTest/OHAttributeTest-Prefix.pch";
+				INFOPLIST_FILE = "OHAttributeTest/OHAttributeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3F8BC816A6548400E9653C /* Build configuration list for PBXProject "OHAttributeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3F8BF016A6548500E9653C /* Debug */,
+				3E3F8BF116A6548500E9653C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3F8BF216A6548500E9653C /* Build configuration list for PBXNativeTarget "OHAttributeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3F8BF316A6548500E9653C /* Debug */,
+				3E3F8BF416A6548500E9653C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E3F8BC516A6548400E9653C /* Project object */;
+}
